@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="17dp"
+    android:layout_height="wrap_content"
+    tools:context=".Editar">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="EDITAR" />
+
+        <EditText
+            android:id="@+id/ids"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="ingrese nombre"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/ednombre"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:hint="ingrese nombre"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/edcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingrese correo"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/eddireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingrese direccion"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btneditar"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+
+            android:layout_height="wrap_content"
+            android:text="EDITAR" />
+
+
+</LinearLayout>

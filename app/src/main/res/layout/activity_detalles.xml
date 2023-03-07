@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    android:layout_height="wrap_content"
+    tools:context=".Detalles">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:contentPaddingBottom="@dimen/cardview_compat_inset_shadow"
+        app:cardBackgroundColor="#DBEAE2"
+        app:cardCornerRadius="10dp"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="DETALLES DE DATOS" />
+        <TextView
+            android:id="@+id/ednombre"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:hint="ingrese nombre"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/edcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingrese correo"
+            android:textSize="25dp"
+            android:layout_marginTop="120dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/eddireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingrese direccion"
+            android:textSize="25dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="50dp"
+            android:inputType="textPersonName" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
